@@ -1,0 +1,8 @@
+version: '3'
+services:
+    infovis:
+        build:
+            context: https://github.com/mayerph/infovis-frontend.git
+            dockerfile: Dockerfile
+        ports:
+            - '8000:8000'
